@@ -8,6 +8,7 @@ module.exports = defineConfig({
       },
     },
   },
+  parallel: false,
   chainWebpack: (config) => {
     config.module.rule('md')
         .test(/\.md/)

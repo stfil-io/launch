@@ -175,7 +175,7 @@
 
 <script>
 import 'github-markdown-css'
-import md from './wt.md'
+import md from '@/assets/md/wt.md'
 
 export default {
   name: 'HomeView',
