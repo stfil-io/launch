@@ -56,6 +56,12 @@
                     <h5 class="font-weight-bold text-primary-color fs-18">2022/02/14 8:00:00 UTC</h5>
                   </div>
                 </div>
+
+                <div class="align-items-center mb-2 margin-top-25">
+                  <h6 class="font-weight-bold text-primary">
+                    More about the tokenomics
+                  </h6>
+                </div>
               </div>
             </div>
           </div>
@@ -145,8 +151,8 @@
       <div class="container">
         <nav>
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <button class="text-primary-color nav-link active nav-link-none fs-5 font-weight-500" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">常见问题</button>
-            <button class="text-primary-color nav-link nav-link-none fs-5 font-weight-500" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">白名单</button>
+            <button class="nav-link active nav-link-none fs-5 font-weight-500" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">FAQ</button>
+            <button class="nav-link nav-link-none fs-5 font-weight-500" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Whitelisted</button>
           </div>
         </nav>
         <div class="tab-content" id="nav-tabContent">
