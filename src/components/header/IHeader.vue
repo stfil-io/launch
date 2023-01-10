@@ -1,9 +1,9 @@
 <template>
-  <header class="header-nav position-relative bg-light-gray">
-    <div class="container">
+  <header class="header-nav position-relative" style="border-bottom: 1px solid #6752F01A;">
+    <div class="container" >
       <nav class="navbar navbar-expand-xl navbar-light px-0">
         <a class="navbar-brand p-0" href="#">
-          <img class="img-fluid" src="@/assets/logo.png">
+          <img class="img-fluid logo-ad" src="@/assets/images/logo/logo.png">
         </a>
 
         <button class="navbar-toggler bg-white rounded-0 p-0" type="button" data-toggle="collapse" data-target="#navlinks"

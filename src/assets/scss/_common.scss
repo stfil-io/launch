@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
 
 body {
 	color: $black-300;
@@ -663,6 +663,14 @@ a.text-primary:hover {
 	color: $black-400
 }
 
+.text-primary-color {
+	color: $primary-text-color !important;
+}
+
+.text-primary-color-60{
+	color: rgba($primary-text-color, .60) !important;
+}
+
 .bg-black-400 {
 	background-color: $black-400
 }
@@ -1009,8 +1017,9 @@ $max: 121; // maximum value (+)1
 }
 
 .alert-pink {
-	background-color: $light-gray;
 	border-color: transparent !important;
+	background-color: rgb(236 235 255 / 36%);
+	border-radius: 14px;
 }
 
 .nav-link-none {
@@ -1024,7 +1033,74 @@ $max: 121; // maximum value (+)1
 	font-weight: bold;
 }
 
+.content-full-height {
+	min-height: calc(100vh - 95.5px - 146px);
+}
+.title-padding-top {
+	padding-top: 100px;
+}
 
+.launch-margin-top {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.launch-icon-size{
+	height: 24px;
+	width: 24px;
+	margin: 0 9px;
+}
+
+.fs-12 {
+	font-size: 0.75rem !important;
+}
+
+.fs-14 {
+	font-size: 0.875rem !important;
+}
+
+.fs-16 {
+	font-size: 1rem !important;
+}
+
+.fs-18 {
+	font-size: 1.125rem !important;
+}
+
+.fs-24 {
+	font-size: 1.5rem !important;
+}
+
+.fs-30 {
+	font-size: 1.875rem !important;
+}
+
+.fs-36 {
+	font-size: 2.25rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.fs-36 {
+		font-size: 1.5rem !important;
+	}
+}
+
+.fs-42 {
+	font-size: 2.625rem !important;
+}
+
+.fs-50 {
+	font-size: 3.125rem !important;
+}
+
+.margin-top-25{
+	margin-top: 25px;
+}
+
+.margin-top-50{
+	margin-top: 50px;
+}
 
 @media (min-width:1200px){
 	.section-padding {
