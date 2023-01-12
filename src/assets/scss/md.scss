@@ -2988,7 +2988,7 @@ VERSION:	v1.0
   .footer-links li {
     margin-bottom: 10px; }
   .footer-links li a {
-    color: #222222; }
+    color: $primary-text-color !important; }
   .footer-links li a:hover {
     color: #FF3158; }
 

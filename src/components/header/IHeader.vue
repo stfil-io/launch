@@ -19,8 +19,10 @@
 
         <div class="collapse navbar-collapse" id="navlinks">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item" v-for="(menu ,index) in menus" :key="index">
-              <a class="nav-link" href="#">{{menu.label}}</a>
+            <li class="nav-item text-primary-color" v-for="(menu ,index) in menus" :key="index">
+              <a class="nav-link" href="#">
+                <span class="text-primary-color">{{menu.label}}</span>
+              </a>
             </li>
           </ul>
         </div>
@@ -36,10 +38,10 @@ export default {
     return  {
       menus: [
         {
-          label: 'home'
+          label: 'Home'
         },
         {
-          label: 'other'
+          label: 'Other'
         }
       ]
     }

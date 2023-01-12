@@ -1,6 +1,6 @@
 <template>
   <div class="position-relative" style="min-height: 100vh">
-<!--    <img alt="" src="@/assets/images/bg/bg.png" width="100%" height="100%" class="position-absolute" loading="lazy">-->
+    <img alt="" src="@/assets/images/bg/bg.png" width="100%" height="100%" class="position-absolute" loading="lazy" style="z-index: -1;">
     <div class="preloader position-fixed d-flex align-items-center justify-content-center">
       <div class="block">
         <div class="loader-image mb-20">
