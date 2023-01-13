@@ -42,9 +42,9 @@
           <div class="pl-0 pl-md-3 mt-5 mt-md-0">
             <h5 class="font-weight-600 mb-20 text-primary-color">Social Links</h5>
             <ul class="list-unstyled footer-links text-primary-color">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Forum</a></li>
-              <li><a href="#">Twitter</a></li>
+              <li><a href="https://github.com/stfil-io">GitHub</a></li>
+              <li><a href="https://forum.stfil.io">Forum</a></li>
+              <li><a href="https://twitter.com/stfil_io">Twitter</a></li>
             </ul>
           </div>
         </div>
