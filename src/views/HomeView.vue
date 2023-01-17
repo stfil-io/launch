@@ -25,7 +25,7 @@
                 <div class="row align-items-center mb-2 margin-top-25">
                   <div class="col-4 fs-16 text-primary-color-60">TOTAL</div>
                   <div class="col-8 text-right text-md-right text-lg-left">
-                    <h5 class="fw-extra-bold text-primary-color  fs-18">15,000,000 FDO (1.5%)</h5>
+                    <h5 class="fw-extra-bold text-primary-color  fs-18">500,000 stFIL</h5>
                   </div>
                 </div>
                 <div class="row align-items-center mb-2 margin-top-25">
@@ -39,21 +39,21 @@
                     PRICE PER SLOT
                   </div>
                   <div class="col-8 text-right text-md-right text-lg-left">
-                    <h5 class="fw-extra-bold text-primary-color  fs-18">1.5 ETH</h5>
+                    <h5 class="fw-extra-bold text-primary-color  fs-18">500 FIL</h5>
                   </div>
                 </div>
                 <div class="row align-items-center mb-2 margin-top-25">
                   <div class="col-4 fs-16 text-primary-color-60">START TIME
                   </div>
                   <div class="col-8 text-right text-md-right text-lg-left">
-                    <h5 class="fw-extra-bold text-primary-color fs-18">2022/02/14 8:00:00 UTC</h5>
+                    <h5 class="fw-extra-bold text-primary-color fs-18">2023/02/01 8:00:00 UTC</h5>
                   </div>
                 </div>
                 <div class="row align-items-center mb-2 margin-top-25">
                   <div class="col-4 fs-16 text-primary-color-60">END TIME
                   </div>
                   <div class="col-8 text-right text-md-right text-lg-left">
-                    <h5 class="fw-extra-bold text-primary-color fs-18">2022/02/14 8:00:00 UTC</h5>
+                    <h5 class="fw-extra-bold text-primary-color fs-18">2023/02/14 8:00:00 UTC</h5>
                   </div>
                 </div>
 
@@ -74,7 +74,7 @@
                 <div class="row align-items-center mb-2 margin-top-25">
                   <div class="col-4 fw-medium fs-16 text-primary-color-60">FDO TOKEN</div>
                   <div class="col-8 text-right text-md-right text-lg-left">
-                    <h5 class="fw-extra-bold text-primary-color fs-18">15,000 FDO</h5>
+                    <h5 class="fw-extra-bold text-primary-color fs-18">500 stFIL + 15,000 FDO</h5>
                   </div>
                 </div>
                 <div class="row align-items-center mb-2 margin-top-25">
