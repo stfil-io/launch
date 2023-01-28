@@ -24,6 +24,14 @@
                 <span class="text-primary-color">{{menu.label}}</span>
               </a>
             </li>
+
+            <li class="nav-link text-left">
+              <select class="border-0 language-ui" @change="handleCommandLanguage">
+                <option v-for="(k, v) in localeDic" :value="v" :key="k" :selected="v === locale">
+                  {{ k }}
+                </option>
+              </select>
+            </li>
           </ul>
         </div>
       </nav>
@@ -38,12 +46,33 @@ export default {
     return  {
       menus: [
         {
-          label: 'Home'
-        },
-        {
-          label: 'Other'
+          label: this.$t('home'),
+          link: '/'
         }
+      ],
+      locale: window.localStorage.getItem('locale') || 'en',
+      localeDic: {
+        'zh': 'Cn',
+        'en': 'En'
+      }
+    }
+  },
+  watch: {
+    '$i18n.locale'() {
+      this.menus = [
+        {
+          label: this.$t('home'),
+          link: '/'
+        },
       ]
+    }
+  },
+  methods: {
+    handleCommandLanguage(language) {
+      let val = language.target.value
+      this.locale = val
+      this.$i18n.locale = val
+      window.localStorage.setItem('locale', val)
     }
   }
 }
