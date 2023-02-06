@@ -40,4 +40,3 @@ This ILO is open to whitelisted addresses during the first 16 hours. After then,
 
 [//]: # (FDO was founded by an experienced international team, primarily based in Asia & Europe. The team has already established a beloved multi-chain NFT marketplace.)
 
-For more details about ILO, read our docs here
